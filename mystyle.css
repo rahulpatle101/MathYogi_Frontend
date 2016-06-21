@@ -1,0 +1,158 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  /*color:white;*/
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+nav {
+	background-color: #29C6F1;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+footer.page-footer {
+	background-color: #669933;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+
+img{
+	height:auto;
+	width:100%;
+}
+#whatDiv{
+	padding-bottom:56px;
+	padding-top:56px;	
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+#app_buttons a{
+	margin-right: 20px;
+	background-color: #FFD817;
+	color:#37474f;
+}
+
+#myscript_buttons a{
+	background-color: #29C6F1;
+	color:#FFFFFF;
+}
+
+
+#about_heading {
+	text-align:center;
+	background-color: #693;
+	color: white;
+	padding:60px;
+	box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+#about_heading p{
+	font-size: 23px;
+	font-weight: 100;
+}
+
+#about_heading h4{
+	font-weight: 100;
+}
+
+#feature_div{
+	text-align:center;
+	background-color: #37474f;
+	color: white;
+	padding:30px 30px 60px 30px;
+}
+
+#app_div{
+	text-align:center;
+	background-color: #37474f;
+	color: white;
+	padding:60px 30px 100px 30px;
+}
+
+#app_div h4{
+	font-weight: 100;
+}
+
+#app_buttons{
+	display:inline;
+}
+
+#coming_div{
+	text-align: center;
+	padding:30px 30px 10px 30px;
+
+}
+
+#myscript_div{
+	text-align: center;
+	padding:30px 30px 10px 30px;
+
+}
+
+#myscript_div h4{
+	font-size: 30px;
+	font-weight: 100;
+
+}
+
+#coming_div h4, h6{
+	font-weight: 100;
+}
+
+.footer_text a{
+	color:white;
+}
+
+.required {
+    color:#e9266d
+}
+
+#snapDiv {
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+#success, #error {
+    display:none
+}
+#success span, #erro span {
+    display:block;
+    position:absolute;
+    top:0;
+    width:100%
+}
+#success span p, #error span p {
+    margin-top:12em
+}
+#success span p {
+  color:#9bd32d;
+}
+#error span p {
+  color:#c0392b;
+}
+
